@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+   text-align: center;
+   background-color: #f0f0f0; /* fallback color */
+   background-color: rgba(240, 240, 240, 0.8); /* translucent background */
+   backdrop-filter: blur(10px); /* backdrop filter for glassmorphism effect */
+   margin: 0;
+   padding: 0;
+   height: 100vh; /* Full height of viewport */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+table {
+
+   align-items: center;
+}
+h1 {
+   margin: 20px;
+}
+
+input[type="number"] {
+   width: 100px;
+   padding: 8px;
+   margin: 10px;
+}
+
+select {
+   padding: 8px;
+}
+button {
+   padding: 8px;
+   margin: 10px;
+   width: 100px;
+}
+
+#result {
+   margin: 20px;
+}
